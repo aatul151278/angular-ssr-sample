@@ -1,0 +1,8 @@
+<p>dynamic Countries!</p>
+
+<div>
+    @for(country of countries; track country.id){
+        <h1>{{country.name}}</h1>
+        <p>{{country.population}} | {{country.capital}}</p>
+    }
+</div>
